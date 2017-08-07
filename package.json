@@ -4,6 +4,9 @@
   "description": "\"tictactoe\" command line version",
   "main": "tictactoe.js",
   "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,7 +34,13 @@
     "minimist": "^1.2.0",
     "path": "^0.12.7",
     "preferences": "^0.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "simple-git": "^1.75.0",
     "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "webpack": "^3.4.1"
   }
 }

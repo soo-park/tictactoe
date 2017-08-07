@@ -31,5 +31,7 @@ Upon completion of your work, submit a link to the repository via this form.
 
 * Required
 
+To run the game: node index.js
+
 *** reference
 https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/
