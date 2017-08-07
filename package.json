@@ -1,0 +1,37 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "\"tictactoe\" command line version",
+  "main": "tictactoe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soo-park/tictactoe.git"
+  },
+  "keywords": [
+    "tictactoe",
+    "CLI"
+  ],
+  "author": "Soo Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soo-park/tictactoe/issues"
+  },
+  "homepage": "https://github.com/soo-park/tictactoe#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "github": "^9.2.0",
+    "inquirer": "^3.2.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "preferences": "^0.2.1",
+    "simple-git": "^1.75.0",
+    "touch": "^3.1.0"
+  }
+}
